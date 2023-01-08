@@ -1,0 +1,32 @@
+.media {
+  width: 50%;
+  left: 25%;
+  top: 25%;
+  background-color: aqua;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  div {
+    width: 94%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+}
+@media only screen and (min-width: 769px) {
+  div {
+    width: 640px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+}
+footer {
+  text-align: left;
+}
